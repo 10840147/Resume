@@ -1,0 +1,47 @@
+/*.sidebar {
+  float: left;
+  border: 500px;
+  padding: 3px;
+}*/
+
+header {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.me {
+  float: left;
+  border-radius: 360px;
+  padding: 10px;
+}
+
+.icon {
+  position: relative;
+  display: contents;
+  float: left;
+}
+
+.w1 {
+  color: lightseagreen;
+  font-size: 100px;
+  font-weight: bolder;
+  line-height: 100px;
+}
+
+.w2 {
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+footer {
+  background-color: lightblue;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  color: aliceblue;
+  text-align: center;
+}
