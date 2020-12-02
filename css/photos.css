@@ -16,6 +16,10 @@
   justify-items: center;
 }
 
+.w6:hover {
+  background-color: lightgoldenrodyellow;
+}
+
 .E1 {
   width: 500px;
   transition: 0.5s;
@@ -23,8 +27,4 @@
 
 .E1:hover {
   width: 800px;
-}
-
-.w6:hover {
-  background-color: lightgoldenrodyellow;
 }
