@@ -48,6 +48,7 @@ a {
 
 .w2 {
   font-size: 50px;
+  font-weight: bolder;
   color: aliceblue;
   line-height: 100px;
   display: flex;
@@ -67,6 +68,7 @@ header {
   color: aliceblue;
   text-align: center;
   margin-bottom: 20px;
+  padding-top: 50px;
 }
 
 footer {
