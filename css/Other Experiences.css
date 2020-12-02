@@ -1,0 +1,33 @@
+.w7 {
+  color: lightseagreen;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.accordion {
+  color: lightseagreen;
+  background-color: whitesmoke;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 50px;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: whitesmoke;
+  overflow: hidden;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.active,
+.accordion:hover {
+  background-color: gray;
+}
