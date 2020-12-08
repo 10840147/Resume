@@ -1,6 +1,18 @@
-.skills_1 {
+.w3 {
   color: lightseagreen;
-  font-size: 50px;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
   font-weight: bolder;
   position: relative;
   max-width: 1200px;
@@ -8,132 +20,140 @@
   margin: auto;
 }
 
-p {
+.item>p {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: black;
   text-align: left;
 }
 
-.w3 {
-  color: lightseagreen;
-  font-size: 100px;
-  text-align: center;
-  font-weight: bolder;
-}
-
-.html {
-  width: 60%;
-  background-color: lightseagreen;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-name: skill60;
-}
-
-.css {
-  width: 60%;
-  background-color: lightseagreen;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-name: skill60;
-}
-
-.js {
-  width: 40%;
-  background-color: lightseagreen;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-name: skill40;
-}
-
-.net {
-  width: 80%;
-  background-color: lightseagreen;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-name: skill80;
-}
-
-.py {
-  width: 60%;
-  background-color: lightseagreen;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-name: skill60;
-}
-
-.java {
-  width: 75%;
-  background-color: lightseagreen;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-name: skill75;
-}
-
-.container {
-  width: auto;
+.item-skill {
+  width: 100%;
   background-color: lightslategray;
 }
 
-.skills_2 {
-  color: black;
-  text-align: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.i-skill-bar {
+  text-align: right;
+  color: bisque;
+  padding: 20px 0 20px 0;
 }
 
 
-@keyframes skill40 {
-  50% {
-    width: 0%
-  }
-
-  20% {
-    width: 40%
-  }
-
-  100% {
-    width: 40%
-  }
+.html {
+  font-size: 30px;
+  width: 70%;
+  background-color: lightseagreen;
+  animation: skill70 5s infinite;
 }
 
+.css {
+  font-size: 30px;
+  width: 70%;
+  background-color: lightseagreen;
+  animation: skill70 5s infinite;
+}
+
+.js {
+  font-size: 30px;
+  width: 60%;
+  background-color: lightseagreen;
+  animation: skill60 5s infinite;
+}
+
+.net {
+  font-size: 30px;
+  width: 90%;
+  background-color: lightseagreen;
+  animation: skill90 5s infinite;
+}
+
+.py {
+  font-size: 30px;
+  width: 70%;
+  background-color: lightseagreen;
+  animation: skill70 5s infinite;
+}
+
+.java {
+  font-size: 30px;
+  width: 80%;
+  background-color: lightseagreen;
+  animation: skill80 5s infinite;
+}
 
 @keyframes skill60 {
-  90% {
-    width: 0%
-  }
-
-  35% {
-    width: 60%
-  }
-
-  100% {
-    width: 60%
-  }
-}
-
-@keyframes skill75 {
-  40% {
-    width: 0%
-  }
-
   0% {
-    width: 75%
+    width: 0%;
   }
 
   100% {
-    width: 75%
+    width: 60%;
   }
 }
 
+@keyframes skill70 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
 
 @keyframes skill80 {
-  20% {
-    width: 0%
-  }
-
-  50% {
-    width: 80%
+  0% {
+    width: 0%;
   }
 
   100% {
-    width: 80%
+    width: 80%;
   }
 }
+
+@keyframes skill90 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+/*------這是分隔線-----*/
+
+/*圓形循環圖
+.root2 {
+  margin: 100px;
+  max-width: 1200px;
+}
+
+.inside-circle {
+  width: 120px;
+  height: 120px;
+  color: white;
+  background-color: black;
+}
+
+.root svg {
+  transform: rotate(270deg);
+}
+
+.root svg circle {
+  fill: transparent;
+  stroke: blue;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-dasharray: 310;
+  stroke-dashoffset: 310;
+  animation: run 10s linear 5;
+}
+
+@keyframes run {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+*/

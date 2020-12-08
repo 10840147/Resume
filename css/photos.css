@@ -5,8 +5,9 @@
 .w5 {
   color: lightseagreen;
   font-size: 100px;
-  text-align: center;
+  font-family: sans-serif;
   font-weight: bolder;
+  text-align: center;
 }
 
 .w6 {
